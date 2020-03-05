@@ -2,6 +2,7 @@ package temas6;
 
 public class ejercicio0 {
 
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int numero[]=new int[10];
@@ -36,6 +37,7 @@ public class ejercicio0 {
 
 		System.out.println("Sumar temperatura negativas: "+menor);
 		System.out.println("La media de las temperatura negativas: "+menor/numero.length);
+		
 	}
 
 }
