@@ -9,10 +9,11 @@ public class ejercicio6 {
 		Scanner sc = new Scanner(System.in);
 		double numero = 0;
 		int i=0;
-		for (i=0;i<19; i++ ) {
+		for (i=0;i<10; i++ ) {
 			numero =  Math.random();
 			System.out.println("El número aleatorio guardado en la posición v["+i+"] "+numero);
 		}
+		sc.close();
 	}
 
 }
